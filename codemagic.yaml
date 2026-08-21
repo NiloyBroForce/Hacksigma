@@ -1,7 +1,7 @@
 workflows:
   android-apk-build:
     name: Build Split Android APKs (ARM v7 & ARM v8)
-    instance_type: mac_mini_m1 # or linux
+    instance_type: mac_mini_m2 # or linux
     max_build_duration: 30
 
     scripts:
